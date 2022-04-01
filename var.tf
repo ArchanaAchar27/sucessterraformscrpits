@@ -4,7 +4,7 @@ variable "vpcname"{
 }
 variable "publiccidrs" {
 
-    default= ["10.11.0.0/24","10.11.1.0/24","10.11.2.0/24"]
+    default= ["10.11.0.0/16","10.11.1.0/16","10.11.2.0/16"]
 }
 variable "azs"{
     default = ["us-east-1a", "us-east-1b", "us-east-1c"]
